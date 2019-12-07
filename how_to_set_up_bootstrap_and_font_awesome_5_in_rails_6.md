@@ -1,3 +1,4 @@
+### How to Set Up Bootstrap 4 and Font Awesome 5 in Rails 6
 - Add the following to `Gemfile`:
   ```
   gem 'bootstrap',  '~>4.3.1'`
