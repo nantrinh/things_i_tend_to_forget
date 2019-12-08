@@ -13,6 +13,7 @@
   @import 'custom';
   ```
 - Change `stylesheet_link_tag` to `stylesheet_pack_tag` in `views/layouts/application.html.erb`. 
+- Change `link_directory ../stylesheets .css` to `link_directory ../../javascript/stylesheets .scss` in `app/assets/config/manifest.js`.
 - Delete `app/assets/stylesheets/application.css`. You don't need it anymore.
 - `yarn add bootstrap jquery popper.js @fortawesome/fontawesome-free`
 - Replace the contents of `config/webpack/environment.js` with the following:
